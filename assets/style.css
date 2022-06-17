@@ -47,3 +47,9 @@ button {
     margin: 5px;
     background: #fdfdfd;
 }
+.weather.loading {
+    visibility: hidden;
+}
+.weather.loading.after {
+    visibility: visibile; 
+}
