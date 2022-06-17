@@ -22,3 +22,10 @@ let weather = {
 
     }
 };
+search: function () {
+    this.featchWeather(document.querySelector(".search-bar").value);
+}
+document.querySelector(".search-button")
+.addEventListener(".click", function (){
+    weather.search(); 
+})
