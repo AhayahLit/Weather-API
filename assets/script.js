@@ -14,7 +14,7 @@ let weather = {
     fetchWeather: function(city) {
     apiKey: "ddca40accecca93e8c08c9f732720dec",
              fetch(
-            "http://api.openweathermap.org/geo/1.0/direct?q="
+            "http://api.openweathermap.org/geo/1.0/reverse?lat=51.5098&lon=-0.1180&limit=5&appid="
             + lat
             + "&limit="
             + long
